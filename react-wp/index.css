@@ -1,0 +1,48 @@
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.react-logo {
+  width: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  -webkit-text-decoration: underline blueviolet 3px;
+          text-decoration: underline blueviolet 3px;
+}
+
+a:active {
+  color: black;
+  -webkit-text-decoration: underline blueviolet 3px;
+          text-decoration: underline blueviolet 3px;
+}
+
+footer {
+  background-color: rgb(187, 187, 187);
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: white;
+  box-shadow: black 0 0 10px 0;
+}/*# sourceMappingURL=index.css.map */
